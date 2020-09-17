@@ -2,4 +2,11 @@ require 'pry'
 
 class Owner
 
-end 
+  def initialize
+    self.class.owners << self
+  end
+
+  def self.owners
+    @@all
+  end
+end
