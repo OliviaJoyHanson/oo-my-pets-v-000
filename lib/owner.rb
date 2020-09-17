@@ -1,5 +1,5 @@
 require 'pry'
 
-class Owner 
+class Owner
 
 end 
