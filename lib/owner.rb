@@ -52,9 +52,9 @@ class Owner
     end
   end
 
-  def walk_dogs
-    self.pets[:dogs].collect do |dog|
-      dog.mood = "happy"
+  def feed_fish 
+    self.pets[:fishes].collect do |fish|
+      fish.mood = "happy"
     end
   end
 
