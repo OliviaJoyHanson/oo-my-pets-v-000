@@ -46,5 +46,16 @@ class Owner
     end
   end
 
+  def play_with_cats
+    self.pets[:cats].collect do |cat|
+      cat.mood = "happy"
+    end
+  end
+
+  def walk_dogs
+    self.pets[:dogs].collect do |dog|
+      dog.mood = "happy"
+    end
+  end
 
 end
