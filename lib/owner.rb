@@ -23,5 +23,9 @@ class Owner
     @@all.count
   end
 
+  def say_species
+    puts @species
+  end
+
 
 end
