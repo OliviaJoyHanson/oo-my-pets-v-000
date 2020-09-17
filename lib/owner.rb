@@ -65,7 +65,8 @@ class Owner
   end
 
   def list_pets
-    "I have #{@pets[:fishes].size} fish, #{@pets[:dogs].size} dog#{"s" if @pets[:dogs].size > 1}, and #{@pets[:cats].size} cat#{"s" if @pets[:cats].size > 1}."
+    #SINGULAR/PLURAL "I have #{@pets[:fishes].size} fish, #{@pets[:dogs].size} dog#{"s" if @pets[:dogs].size > 1}, and #{@pets[:cats].size} cat#{"s" if @pets[:cats].size > 1}."
+    "I have #{@pets[:fishes].size} fish, #{@pets[:dogs].size} dog(s), and #{@pets[:cats].size} cat(s)."
   end
 
 
